@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'page#index'
   namespace :api do
     namespace :v1 do
       get 'messages/index'
